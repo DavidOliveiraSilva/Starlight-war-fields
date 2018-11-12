@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -64,7 +65,7 @@ public class Player : MonoBehaviour {
             fireCounter = Bullet.gameObject.GetComponent<Bullet>().delay;
             canFire = false;
         }
-        if (Input.GetKeyDown(KeyCode.E)) {
+        if (Input.GetKeyDown(KeyCode.LeftShift)) {
             Dash();
         }
         
