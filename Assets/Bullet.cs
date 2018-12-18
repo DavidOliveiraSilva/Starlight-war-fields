@@ -1,23 +1,27 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Networking;
 
-public class Bullet : MonoBehaviour {
+public class Bullet : NetworkBehaviour {
     public GameObject release;
     public float speed;
     public float delay;
     public float timer = 4;
     private SpriteRenderer sr;
-    ParticleSystem ps;
+    private ParticleSystem ps;
     private float timer_;
     private bool dead = false;
+    public float angle;
+    private Rigidbody2D rb;
     // Use this for initialization
     private void Awake() {
         sr = GetComponent<SpriteRenderer>();
         ps = GetComponent<ParticleSystem>();
+        rb = GetComponent<Rigidbody2D>();
     }
     void Start () {
-		
+        rb.velocity = new Vector2(speed * Mathf.Cos(angle), speed * Mathf.Sin(angle));
         timer_ = timer;
     }
 	

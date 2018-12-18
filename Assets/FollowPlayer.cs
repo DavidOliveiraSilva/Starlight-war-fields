@@ -13,6 +13,7 @@ public class FollowPlayer : MonoBehaviour {
     private float currentMira;
 	// Use this for initialization
 	void Start () {
+        
 		if(target == null) {
             active = false;
         } else {

@@ -25,6 +25,7 @@ GameObject:
   - component: {fileID: 198945594883658454}
   - component: {fileID: 199388766549256462}
   - component: {fileID: 114274849378307928}
+  - component: {fileID: 114230693296452422}
   m_Layer: 0
   m_Name: Bomb
   m_TagString: Untagged
@@ -111,6 +112,38 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.531127
+--- !u!114 &114230693296452422
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1605164883879822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 136
+    i1: 0
+    i2: 89
+    i3: 11
+    i4: 251
+    i5: 176
+    i6: 62
+    i7: 68
+    i8: 138
+    i9: 19
+    i10: 122
+    i11: 158
+    i12: 148
+    i13: 235
+    i14: 99
+    i15: 36
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 1
 --- !u!114 &114274849378307928
 MonoBehaviour:
   m_ObjectHideFlags: 1
