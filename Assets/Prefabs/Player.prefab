@@ -250,11 +250,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ba408345628abe449ebbcb255c6ae06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 25
+  speed: 50
   mainCamera: {fileID: 1664233110592700, guid: b07bb0487b69ac940b477b562212e009, type: 2}
   Bullet: {fileID: 1663249684041698, guid: d192ddc3bf5df2648a8cbc2c3f905f6f, type: 2}
-  dashDuration: 0.2
-  dashSpeed: 80
+  dashDuration: 0.5
+  dashSpeed: 100
   skill: {fileID: 0}
 --- !u!198 &198451022993686550
 ParticleSystem:

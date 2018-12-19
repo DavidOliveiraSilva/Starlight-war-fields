@@ -178,9 +178,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   release: {fileID: 1515353532846942, guid: 40b77e76cf3776b4a8f07c34e1ba847e, type: 2}
-  speed: 90
-  delay: 0.1
+  speed: 60
+  delay: 0.05
   timer: 1
+  angle: 0
 --- !u!198 &198702712782853832
 ParticleSystem:
   m_ObjectHideFlags: 1
