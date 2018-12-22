@@ -1,0 +1,1 @@
+﻿public enum ActionType { None, Move, Turn, Look, Shoot};

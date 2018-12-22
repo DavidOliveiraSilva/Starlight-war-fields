@@ -36,7 +36,6 @@ public class Player : NetworkBehaviour {
         
     }
     void Awake () {
-        
         rb = GetComponent<Rigidbody2D>();
         plasma = transform.Find("Plasma").gameObject.GetComponent<ParticleSystem>();
         var emission = plasma.emission;

@@ -9,6 +9,7 @@ TagManager:
   - Bullet
   - Skill
   - Explosion
+  - Bot
   layers:
   - Default
   - TransparentFX
